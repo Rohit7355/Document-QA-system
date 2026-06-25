@@ -1,0 +1,13 @@
+# Core RAG components
+sentence-transformers==3.0.1          # Embeddings model
+chromadb==0.5.3                       # Vector database
+groq==0.9.0                           # LLM API client
+
+# Document handling
+PyPDF2==3.0.1                         # PDF parsing
+
+# Web UI
+streamlit==1.28.1                     # Web interface
+
+# Utilities
+python-dotenv==1.0.0                  # Environment variable management
