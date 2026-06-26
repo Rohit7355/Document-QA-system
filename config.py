@@ -9,8 +9,7 @@ CHUNK_SIZE = 512  # tokens per chunk
 CHUNK_OVERLAP = 50  # overlap between chunks
 TOP_K = 5  # top-k documents to retrieve
 
-# LLM Settings (using Groq - free tier)
-# Get your API key from: https://console.groq.com/
+# LLM Settings (using Groq )
 LLM_API_KEY_ENV = "GROQ_API_KEY"  # or use "GEMINI_API_KEY"
 LLM_MODEL = "llama-3.1-8b-instant"  # Fast open-source model
 LLM_TEMPERATURE = 0.3  # Lower = more factual
