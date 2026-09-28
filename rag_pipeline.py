@@ -123,7 +123,7 @@ QUESTION: {query}
 ANSWER:"""
         }]
         response = self.client.chat.completions.create(
-            model=self.model,
+            model="openai/gpt-oss-20b",
             messages=messages,
             temperature=LLM_TEMPERATURE,
             max_tokens=500
